@@ -1,6 +1,11 @@
+
 .container{
     padding: 3em;
     background-color: hsl(0, 0%, 98%);
+    justify-content: center;
+            
+    }
+    
 }
 h1{
     text-align: center;
@@ -20,7 +25,25 @@ p, .fw-light {
     color: hsl(229, 6%, 66%);
 }
 
-.floater{
-    flex-direction: column;
-   
+.cardbox{
+    max-width: 768px;
+    /* justify-content: center; */
+   justify-self: center;
 }
+
+#card1{
+    top: 8em;
+}
+
+#floater{
+    flex-direction: column;
+   margin-left: 20em !important;
+   margin-top: -15em;
+}
+
+ #card4{
+    left: 41em;
+    top: -25em;
+} 
+
+    
