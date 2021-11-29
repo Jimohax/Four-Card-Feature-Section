@@ -1,0 +1,26 @@
+.container{
+    padding: 3em;
+    background-color: hsl(0, 0%, 98%);
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.card-text {
+   text-align: right;
+   
+}
+h1, h2, h3, h4, h5 {
+    
+font-family: 'Poppins', sans-serif;
+}
+p, .fw-light {
+    color: hsl(229, 6%, 66%);
+}
+
+.floater{
+    flex-direction: column;
+   
+}
